@@ -1,0 +1,13 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto con Node en Open Boot Camp",
+  "main": "index.js",
+  "git repository": "https://github.com/MiguelT18/curso-js-openbootcamp.git",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Teran",
+  "license": "ISC"
+}
