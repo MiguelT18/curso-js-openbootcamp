@@ -35,13 +35,13 @@ console.log(array2);
 const array3 = [1, 2, 3, 4, 5, 6];
 
 // Eliminar valores .splice(indice, numValoresAEliminar)
-array3.splice(2, 1);
+array3.slice(2, 1);
 console.log(array3);
 
 // Añadir valores .splice(indice, 0, valores)
-array3.splice(2, 0, "Hola");
+array3.slice(2, 0, "Hola");
 console.log(array3);
 
 // Modificar valores .splice(indice, 1, valores)
-array3.splice(2, 1, 3);
+array3.slice(2, 1, 3);
 console.log(array3);
