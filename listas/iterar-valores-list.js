@@ -7,7 +7,6 @@ for (let i = 0; i < array.length; i++) {
 }
 
 // Forma ES6 (más eficiente) .forEach()
-
 let suma = 0;
 const arrayNums = [3, 6, 2, 77, 2, 3, 93, 19];
 arrayNums.forEach((valor) => {
