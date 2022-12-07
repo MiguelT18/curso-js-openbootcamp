@@ -42,8 +42,7 @@ const peliculasFavoritas = [
 const peliculasNuevas = peliculasFavoritas.filter(
   (nuevas) => nuevas.fecha > 2010
 );
-const resultado = peliculasNuevas;
-console.log(resultado);
+console.log(peliculasNuevas);
 
 // Una nueva lista que contenga los directores de la lista de películas original (utilizando map)
 
@@ -54,16 +53,11 @@ console.log(directoresLista);
 
 // Una nueva lista que concatene la lista de directores y la lista de los títulos (utilizando concat)
 
-let directoresTitulos = peliculasFavoritas.concat(
-  peliculasFavoritas.titulo,
-  peliculasFavoritas.director
-);
-console.log(directoresTitulos);
+const titulosLista = peliculasFavoritas.map(function (e) {
+  return `${e.titulo}`;
+});
+console.log(titulosLista.concat(directoresLista));
 
 // Una nueva lista que concatene la lista de directores y la lista de los títulos (utilizando el factor de propagación) - Spread Operator
 
-const propDirectoresTitulos = peliculasFavoritas.concat(
-  peliculasFavoritas.titulo,
-  peliculasFavoritas.director
-);
-console.log(...propDirectoresTitulos);
+const directoresTitulos = [...directoresLista, ...titulosLista];

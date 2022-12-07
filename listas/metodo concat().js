@@ -14,3 +14,20 @@ const num3 = [7, 8, 9];
 const concatNumbers = num1.concat(num2, num3);
 
 console.log(concatNumbers);
+
+// string.concat()
+const nombre = "Miguel";
+const apellido = "Teran";
+
+const completo = nombre.concat(" ", apellido, " Jimenez");
+console.log(completo);
+
+// array.concat()
+const vocales = ["a", "e", "i"];
+const numeros = [1, 2, 3];
+const consonantes = ["n", "m"];
+const vectores = [[1], [2]];
+
+const union = vocales.concat(vectores);
+vectores[0].push(3);
+console.log(union);
