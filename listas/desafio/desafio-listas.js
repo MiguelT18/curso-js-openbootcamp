@@ -61,3 +61,4 @@ console.log(titulosLista.concat(directoresLista));
 // Una nueva lista que concatene la lista de directores y la lista de los títulos (utilizando el factor de propagación) - Spread Operator
 
 const directoresTitulos = [...directoresLista, ...titulosLista];
+console.log(directoresTitulos);
