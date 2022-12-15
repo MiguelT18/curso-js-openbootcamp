@@ -1,0 +1,6 @@
+//-----------
+// Interfaces
+//-----------
+// En javascript no existen las interfaces, porque es un lenguaje interpretado, es decir que se va interpretando en el camino, a esto se lo conoce como duck typing
+
+// Typescript -> Es un lenguaje derivado de javascript con la diferencia de que en este lenguaje sí que podemos utilizar las interfaces
